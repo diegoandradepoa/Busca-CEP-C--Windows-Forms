@@ -48,16 +48,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(23, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 13);
+            this.label1.Size = new System.Drawing.Size(117, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "CEP:";
+            this.label1.Text = "Insira o seu CEP:";
             // 
             // txtCEP
             // 
             this.txtCEP.BackColor = System.Drawing.SystemColors.Info;
-            this.txtCEP.Location = new System.Drawing.Point(12, 34);
+            this.txtCEP.Location = new System.Drawing.Point(23, 41);
+            this.txtCEP.MaxLength = 8;
             this.txtCEP.Name = "txtCEP";
             this.txtCEP.Size = new System.Drawing.Size(166, 20);
             this.txtCEP.TabIndex = 1;
@@ -72,6 +74,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtEstado);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(13, 77);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(558, 250);
@@ -84,7 +87,7 @@
             this.txtEstado.BackColor = System.Drawing.Color.LightGray;
             this.txtEstado.Location = new System.Drawing.Point(15, 41);
             this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(522, 20);
+            this.txtEstado.Size = new System.Drawing.Size(522, 21);
             this.txtEstado.TabIndex = 3;
             // 
             // label2
@@ -92,7 +95,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Estado:";
             // 
@@ -101,7 +104,7 @@
             this.txtCidade.BackColor = System.Drawing.Color.LightGray;
             this.txtCidade.Location = new System.Drawing.Point(15, 93);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(522, 20);
+            this.txtCidade.Size = new System.Drawing.Size(522, 21);
             this.txtCidade.TabIndex = 5;
             // 
             // label3
@@ -109,7 +112,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 77);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Cidade:";
             // 
@@ -118,7 +121,7 @@
             this.txtBairro.BackColor = System.Drawing.Color.LightGray;
             this.txtBairro.Location = new System.Drawing.Point(15, 146);
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(522, 20);
+            this.txtBairro.Size = new System.Drawing.Size(522, 21);
             this.txtBairro.TabIndex = 7;
             // 
             // label4
@@ -126,7 +129,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(15, 130);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
+            this.label4.Size = new System.Drawing.Size(51, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Bairro:";
             // 
@@ -135,7 +138,7 @@
             this.txtRua.BackColor = System.Drawing.Color.LightGray;
             this.txtRua.Location = new System.Drawing.Point(15, 204);
             this.txtRua.Name = "txtRua";
-            this.txtRua.Size = new System.Drawing.Size(522, 20);
+            this.txtRua.Size = new System.Drawing.Size(522, 21);
             this.txtRua.TabIndex = 9;
             // 
             // label5
@@ -143,7 +146,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(15, 188);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 13);
+            this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Rua:";
             // 
